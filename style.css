@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #F5F5F5;
+    background-color: #F1F1F3;
     font-family: Fira Sans;
 }
 nav{
@@ -8,7 +8,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 40px;
-    background-color: #F5F5F5;
     padding: 10px 20px;
 }
 nav h1{
@@ -65,4 +64,120 @@ nav button:hover{
     cursor: pointer;
     font-size: 18px;
     margin-top: 24px;
+}
+.hero-content button:hover{
+    background-color: white;
+    color: #006A50;
+}
+.pillars{
+    padding: 40px;
+	color: #0E0E0E;
+	text-align: left;
+}
+.pillars h1{
+    font-size: 40px;
+	color: #0E0E0E;
+	margin: 20px;
+    font-weight: bold;
+}
+.pillars-card{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 24px;
+    margin: 20px;
+}
+.pillar-item{
+    background-color: #FFFFFF;
+	padding: 20px;
+	border: 1px solid #D5D6D8;
+    border-radius: 20px;
+	text-align: left;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+}
+.pillar-item p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    
+}
+.vision{
+    padding: 40px;
+	color: #0E0E0E;
+	text-align: left;
+}
+.vision h1{
+    font-size: 40px;
+	color: #0E0E0E;
+	margin: 20px;
+    font-weight: bold;
+}
+.vision p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    margin: 20px;
+}
+.vision-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin: 20px;
+}
+.card-item1,.card-item2,.card-item3{
+    background-color: rgba(84, 144, 245, 0.2);
+	padding: 20px;
+	border: none;
+    border-radius: 15px;
+	text-align: left;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.card-item2{
+    background-color: rgba(9, 161, 92, 0.2);
+}
+.card-item3{
+    background-color: rgba(255, 194, 57, 0.2);
+}
+
+.card-item1 p,.card-item2 p,.card-item3 p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+
+}
+
+.card-item1 button,.card-item2 button,.card-item3 button{
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 24px;
+}
+.card-item1 button{
+    background-color: #5490F5;
+}
+.card-item2 button{
+    background-color: #09A15C;
+}
+.card-item3 button{
+    background-color: #FFC239;
+}
+.card-item1 button:hover{
+    background-color: #FFFFFF;
+    color: #5490F5;
+}
+.card-item2 button:hover{
+    background-color: #FFFFFF;
+    color: #09A15C;
+}
+.card-item3 button:hover{
+    background-color: #FFFFFF;
+    color: #FFC239;
 }
