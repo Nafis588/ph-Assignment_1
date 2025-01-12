@@ -409,7 +409,10 @@ nav button:hover{
     font-size: 32px;
     font-weight: bold;
 }
-
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+}
 .opinion h1{
     font-size: 40px;
 	color: #0E0E0E;
