@@ -24,7 +24,7 @@ nav button{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: semi-bold;
 }
 nav button:hover{
     background-color: #006A50;
@@ -158,7 +158,7 @@ nav button:hover{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: semi-bold;
     margin-top: 24px;
 }
 .card-item1 button{
@@ -272,7 +272,137 @@ nav button:hover{
     cursor: pointer;
     font-size: 18px;
     margin-top: 24px;
+    font-weight: semi-bold;
 }
 .news1-content button:hover{
     background-color: #45bfa0;
+}
+.donate{
+    border-radius: 10px;
+    margin: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+.donate h1{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: bold;
+    text-align: center;
+}
+.donate p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    text-align: center;
+}
+.donate-card{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 24px;
+}
+.donate-amount{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #D5D6D8;
+    border-radius: 20px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+.donate-amount:hover{
+    background-color: #006A50;
+    color: white;
+}
+.other-amount input{
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    margin-left: 50px;
+    text-align: center;
+    border: 1px solid #D5D6D8;
+    
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+}
+.donate-btn{
+    text-align: center;
+}
+.donate-btn button{
+    background-color: #006A50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 24px;
+    font-weight: semi-bold;
+}
+.donate-btn button:hover{
+    background-color: white;
+    color: #006A50;
+}
+.newsletter{
+    margin: 60px;
+    padding: 80px 100px;
+    color: #0E0E0E;
+    text-align: center;
+    background-color: #C6E4D6;
+}
+.newsletter h1{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: bold;
+    text-align: center;
+}
+.newsletter p,h3{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    text-align: center;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.subscribe input{
+    width: 600px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+
+}
+.subscribe button{
+    background-color: #006A50;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: semi-bold;
+}
+.subscribe button:hover{
+    background-color:rgb(104, 192, 170) ;
+}
+.footer{
+    text-align: center;
+    padding: 50px 160px;
+    background-color: #ffffff;
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
 }
