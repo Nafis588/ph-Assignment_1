@@ -182,3 +182,97 @@ nav button:hover{
     background-color: #FFFFFF;
     color: #FFC239;
 }
+.quote{
+    margin: 60px;
+    color: #0E0E0E;
+    text-align: left;
+    background-color: #FFFFFF;
+    background-image: url("images/quote-bg.png");
+    background-position: 20px 5px;
+    background-repeat: no-repeat;
+	padding: 20px;
+	border: 1px solid rgba(14, 14, 14, 0.3);
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.quote h3{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.news h1{
+    font-size: 40px;
+	color: #0E0E0E;
+	margin-left: 60px;
+    margin-right: 60px;
+    font-weight: bold;
+}
+.news p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.news-card {
+    justify-content: center;
+    border-radius: 10px;
+    margin: 40px;
+    
+    
+}
+.news-item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
+.news-item1 img{
+    border-radius: 10px;
+    margin-right: 32px;
+}
+.news1-content h3{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0;
+}
+.news-time{
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+}
+.news1-content p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: normal;
+    text-align: left;
+}
+.news1-content button{
+    background-color: #006A50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 24px;
+}
+.news1-content button:hover{
+    background-color: #45bfa0;
+}
